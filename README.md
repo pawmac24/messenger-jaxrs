@@ -25,6 +25,16 @@ POST application/json /webapi/messages
    "created": "2017-03-21T12:13:25.234+01:00",
    "message": "Hello World 2!"
 }
+<br />
+PUT application/json /webapi/messages/3
+{
+  "author": "pawelm",
+  "created": "2017-03-21T12:35:40.377+01:00",
+  "message": "Ha Ha Ha!!!"
+}
+<br />
+DELETE application/json /webapi/messages/3
+STATUS CODE = 204
 </pre>
 
 **4. Based on tutorial**
