@@ -15,32 +15,39 @@ http://localhost:8080/messenger
 **3. Use API in POSTMAN REST client**
 
 <pre>
-GET application/json /webapi/messages
-GET application/json /webapi/messages?year=2017
-GET application/json /webapi/messages/1
+GET application/json
+/webapi/messages
+/webapi/messages?year=2017
+/webapi/messages?start=0&size=1
+/webapi/messages/1
 
-POST application/json /webapi/messages
+POST application/json
+/webapi/messages
 {
    "author": "pawelm",
    "created": "2017-03-21T12:13:25.234+01:00",
    "message": "Hello World 2!"
 }
 
-PUT application/json /webapi/messages/3
+PUT application/json
+/webapi/messages/3
 {
   "author": "pawelm",
   "created": "2017-03-21T12:35:40.377+01:00",
   "message": "Ha Ha Ha!!!"
 }
 
-DELETE application/json /webapi/messages/3
+DELETE application/json
+/webapi/messages/3
 STATUS CODE = 204
-<br />===================<br />
 
-GET webapi/profiles
-GET webapi/profiles/pawelm
+===================
+GET
+webapi/profiles
+webapi/profiles/pawelm
 
-POST webapi/profiles
+POST
+webapi/profiles
 {
   "created": "2017-03-21T14:02:07.335+01:00",
   "firstName": "Ewa",
@@ -48,7 +55,8 @@ POST webapi/profiles
   "profileName": "ewam"
 }
 
-PUT webapi/profiles/ewam
+PUT
+webapi/profiles/ewam
 {
   "created": "2017-03-21T14:02:07.335+01:00",
   "firstName": "Ewa",
@@ -56,7 +64,8 @@ PUT webapi/profiles/ewam
   "id": 2
 }
 
-DELETE webapi/profiles/ewam
+DELETE
+webapi/profiles/ewam
 
 </pre>
 
