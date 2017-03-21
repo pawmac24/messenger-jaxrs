@@ -41,6 +41,8 @@ DELETE application/json
 /webapi/messages/3
 STATUS CODE = 204
 
+GET application/json
+/webapi/messages/12/comments/12
 ===================
 GET
 webapi/profiles
