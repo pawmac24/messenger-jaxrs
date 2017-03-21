@@ -35,6 +35,29 @@ PUT application/json /webapi/messages/3
 <br />
 DELETE application/json /webapi/messages/3
 STATUS CODE = 204
+<br />
+GET webapi/profiles
+<br />
+GET webapi/profiles/pawelm
+<br />
+POST webapi/profiles
+{
+  "created": "2017-03-21T14:02:07.335+01:00",
+  "firstName": "Ewa",
+  "lastName": "Mac",
+  "profileName": "ewam"
+}
+<br />
+PUT webapi/profiles/ewam
+{
+  "created": "2017-03-21T14:02:07.335+01:00",
+  "firstName": "Ewa",
+  "lastName": "Mac"
+  "id": 2
+}
+<br />
+DELETE webapi/profiles/ewam
+
 </pre>
 
 **4. Based on tutorial**
