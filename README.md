@@ -73,6 +73,10 @@ webapi/injectdemo/annotations;param=value
 Custom headers:
 key: authSessionID, value: abc
 
+webapi/injectdemo/context
+Headers:
+key: Cookie, value: name=value
+key: Cookie, value: name2=value2
 </pre>
 
 **4. Based on tutorial**
