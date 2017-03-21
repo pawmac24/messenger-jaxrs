@@ -16,7 +16,7 @@ http://localhost:8080/messenger
 
 <pre>
 GET application/json /webapi/messages
-<br/>
+GET application/json /webapi/messages?year=2017
 GET application/json /webapi/messages/1
 <br/>
 POST application/json /webapi/messages
@@ -35,7 +35,8 @@ PUT application/json /webapi/messages/3
 <br />
 DELETE application/json /webapi/messages/3
 STATUS CODE = 204
-<br />
+<br />===================<br />
+
 GET webapi/profiles
 <br />
 GET webapi/profiles/pawelm
