@@ -14,8 +14,18 @@ http://localhost:8080/messenger
 
 **3. Use API in POSTMAN REST client**
 
-GET /webapi/messages <br/>
-GET /webapi/messages/1
+<pre>
+GET application/json /webapi/messages
+<br/>
+GET application/json /webapi/messages/1
+<br/>
+POST application/json /webapi/messages
+{
+   "author": "pawelm",
+   "created": "2017-03-21T12:13:25.234+01:00",
+   "message": "Hello World 2!"
+}
+</pre>
 
 **4. Based on tutorial**
 
