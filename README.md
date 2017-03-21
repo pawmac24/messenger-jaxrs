@@ -67,6 +67,12 @@ webapi/profiles/ewam
 DELETE
 webapi/profiles/ewam
 
+=======================
+GET text/plain
+webapi/injectdemo/annotations;param=value
+Custom headers:
+key: authSessionID, value: abc
+
 </pre>
 
 **4. Based on tutorial**
