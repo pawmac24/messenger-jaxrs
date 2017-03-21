@@ -18,29 +18,28 @@ http://localhost:8080/messenger
 GET application/json /webapi/messages
 GET application/json /webapi/messages?year=2017
 GET application/json /webapi/messages/1
-<br/>
+
 POST application/json /webapi/messages
 {
    "author": "pawelm",
    "created": "2017-03-21T12:13:25.234+01:00",
    "message": "Hello World 2!"
 }
-<br />
+
 PUT application/json /webapi/messages/3
 {
   "author": "pawelm",
   "created": "2017-03-21T12:35:40.377+01:00",
   "message": "Ha Ha Ha!!!"
 }
-<br />
+
 DELETE application/json /webapi/messages/3
 STATUS CODE = 204
 <br />===================<br />
 
 GET webapi/profiles
-<br />
 GET webapi/profiles/pawelm
-<br />
+
 POST webapi/profiles
 {
   "created": "2017-03-21T14:02:07.335+01:00",
@@ -48,7 +47,7 @@ POST webapi/profiles
   "lastName": "Mac",
   "profileName": "ewam"
 }
-<br />
+
 PUT webapi/profiles/ewam
 {
   "created": "2017-03-21T14:02:07.335+01:00",
@@ -56,7 +55,7 @@ PUT webapi/profiles/ewam
   "lastName": "Mac"
   "id": 2
 }
-<br />
+
 DELETE webapi/profiles/ewam
 
 </pre>
